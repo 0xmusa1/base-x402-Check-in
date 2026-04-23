@@ -1,0 +1,13 @@
+{
+  "name": "base-x402-checkin",
+  "version": "1.0.0",
+  "description": "Daily check-in NFT contract on Base",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
